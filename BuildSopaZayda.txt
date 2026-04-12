@@ -1,0 +1,42 @@
+C:\Users\rolan\Desktop\sopa-letras-zayda>npm run build
+
+https://vercel.com/elvives-projects
+
+Paso a paso para agregar más palabras y actualizar el sitio
+Asumiendo que las palabras están en un archivo JS/TS dentro de tu código (por ejemplo en src/data/palabras.js, src/App.js o un array como const palabras = [...]), haz esto:
+
+1. Abre tu proyecto en tu PC
+Ve a la carpeta del proyecto:
+C:\users\rolan\desktop\sopa-letras-zayda (o donde lo tengas guardado).
+Edita el código para agregar las palabras
+Abre el archivo donde están las palabras (usa VS Code o tu editor).
+Ejemplo común: si tienes algo como esto en src/App.js o un archivo separado:JavaScript
+
+Verifica que todo funcione localmente (opcional pero recomendado)
+En la terminal (PowerShell o cmd) dentro de la carpeta del proyecto:
+
+	npm start
+
+Abre http://localhost:3000 y prueba que las nuevas palabras aparezcan en la sopa. Corrige si hay errores.
+
+2. Agrega los cambios a Git
+En la misma terminal:
+	git add .
+
+3. Haz un commit (guarda el cambio con un mensaje descriptivo)
+	git commit -m "Agrego más palabras a la sopa de letras Emmma"
+
+4. Sube los cambios a GitHub (esto dispara el redeploy automático en Vercel)
+	git push
+(O git push origin main si tu rama es main).
+
+5. Espera el redeploy automático en Vercel
+	Ve al dashboard: https://vercel.com/dashboard → selecciona tu proyecto (zayda-sopa).
+	En la pestaña Deployments, verás un nuevo deploy en progreso (dice "Building..." o "Queued").
+	Espera 1-3 minutos hasta que diga "Ready" (verde).
+	Refresca tu sitio: https://zayda-sopa.vercel.app/ (usa Ctrl + Shift + R para recarga dura y evitar caché).
+Listo!!
+
+
+
+

@@ -3,10 +3,10 @@ import { Sparkles, Heart, Award, RefreshCw } from 'lucide-react';
 
 const WordSearchGame = () => {
   const allWords = ['SOPA', 'GOZO', 'SALVAR', 'PERDON', 'PANAMA', 'LETRAS', 'AMOR', 'JUGAR', 'SANTIDAD', 'FAMILIA', 'RELOJ', 'PINTAR', 'ESTRELLA', 'BOSQUE',
-                  'FELIZ', 'ESPOSA', 'RISA', 'TIEMPO', 'SOL', 'LUNA', 'PAZ', 'CIELO', 'FLOR', 'APOYO', 'AFECTO', 'PESO', 'AFECTO', 'AMISTAD',
+                  'FELIZ', 'ESPOSA', 'RISA', 'TIEMPO', 'SOL', 'LUNA', 'PAZ', 'CIELO', 'FLOR', 'APOYO', 'AFECTO', 'PESO', 'ARBOL', 'AMISTAD',
 				  'BESO', 'ABRAZO', 'BONDAD', 'ELVIS', 'ZAYDA', 'JESUS', 'LEALTAD', 'PACIENCIA', 'VERDAD', 'HONESTO', 'COMER', 'FUERTE', 'PUCHU', 'CESARIN',
 				  'ANA', 'BILLY', 'MARIFER', 'PEPE', 'ORLANDO', 'MARLENE', 'PENELOPE', 'LUCY', 'AROMA', 'YOYA', 'ISMAEL', 'NELDA', 'AMANDA', 'KATY', 'YAÑEZ', 
-				  'YASUANY', 'ONERYS', 'MIMA'
+				  'YASUANY', 'ONERYS', 'MIMA', 'ALFREDO', 'POCHITO','EMMA', 'NAIROBI', 'NAOMI',  'JULIO', 'MEMI', 'EUCLIDES', 'TITO', 'TEMPLANZA'
 				  ];
   
   const HUES = [
